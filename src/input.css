@@ -41,3 +41,8 @@
     color: red;
   }
 }
+@responsive {
+  .responsive-custom-text {
+    font-size: 48px;
+  }
+}

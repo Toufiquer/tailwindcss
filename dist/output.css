@@ -658,6 +658,18 @@ h6 {
   font-size: 12px;
 }
 
+@variants hover,focus {
+  .hover-text {
+    color: red;
+  }
+}
+
+@responsive {
+  .responsive-custom-text {
+    font-size: 48px;
+  }
+}
+
 .hover\:hover-text:hover {
   color: red;
 }

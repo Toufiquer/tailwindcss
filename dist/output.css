@@ -650,6 +650,14 @@ h6 {
   text-align: center;
 }
 
+.duration-200 {
+  transition-duration: 200ms;
+}
+
 .custom-utilities {
   font-size: 12px;
+}
+
+.hover\:hover-text:hover {
+  color: red;
 }

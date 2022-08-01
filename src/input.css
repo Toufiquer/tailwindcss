@@ -36,3 +36,8 @@
     font-size: 12px;
   }
 }
+@variants hover,focus {
+  .hover-text {
+    color: red;
+  }
+}

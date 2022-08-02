@@ -24,7 +24,8 @@
  * module.exports = {
  *  darkMode: 'class',
  * }
- *
+ *  // class => enable;
+ *  // media => disabled;
  *
  * *** ---> Aspect Ratio
  * aspect-auto	    => aspect-ratio: auto;
@@ -108,18 +109,42 @@
  * outline-offset-4	outline-offset: 4px;
  * outline-offset-8	outline-offset: 8px;
  *
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
+ *
+ * *** ---> Ring Width
+ * ring-offset-2 ring-2
+ *
+ *
+ *
+ * *** ---> Box shadow
+ * shadow-gray-50
+ *
+ *
+ * *** ---> Opacity
+ * opacity-(0-100)
+ *
+ *
+ *
+ * *** ---> Mix Blend Mode
+ * mix-blend-hue
+ * mix-blend-color
+ *
+ *
+ *
+ * *** ---> Background Blend Mode
+ * bg-blend-screen
+ *
+ *
+ *
+ *
+ * *** ---> Blur
+ * blur => blur(8px)
+ * blur-sm => blur(4px)
+ *
+ *
+ *
+ *
+ *
+ *
  *  -- -- -- -- -- -- -- -- -- -- -- -- - - - -
  *  -- -- -- -- -- -- -- -- -- -- -- -- - - - -
  * ***********  Text decoration  ***************
@@ -143,6 +168,7 @@
  *
  *
  * ***********  snap decoration  ***************
+ * (scroll on x axios)
  * parent div => snap-x
  * child div => snap-center
  *
@@ -160,12 +186,6 @@
  * underline decoration-gray; decoration-2;
  *
  *
- * ***********  Text decoration  ***************
  *
  *
- *
- *
- *
- *
- *
- */
+ * */
